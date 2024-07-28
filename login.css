@@ -1,0 +1,70 @@
+h2 {
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}
+
+form {
+    border: solid;
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.uname, .psw {
+    font-weight: bold;
+}
+
+input[type=text], input[type=password] {
+    width: 85%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+button {
+    background-color:rgb(15, 215, 15);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%; 
+    border-radius: 5px;   
+}
+
+.signup {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #e74337;
+    margin-top: 20px;
+}
+  
+.container {
+    padding: 16px;
+    background-color: white;
+    
+}
+
+form:hover {
+    background-color: aliceblue;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+    background-color:white;
+    
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+    padding-right: 40px;
+    letter-spacing:2px ;
+}
+body{
+    background-color: black;
+}
